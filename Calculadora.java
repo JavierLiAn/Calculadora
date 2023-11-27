@@ -4,15 +4,15 @@ public class Calculadora {
     static int num1 = 5;
     static int num2 = 2;
     public static void main(String[] args) {
-        sumar();
+        sumar(num1,num2);
         restar(num1,num2);
         dividir();
         multiplicar(num1, num2);
     }
 
-    static void sumar() {
+    static void sumar(int num1,int num2) {
         int suma;
-        suma= num1 + num2;
+        suma = num1 + num2;
         System.out.println("El resultados de la suma es: " + suma);
     }
 
