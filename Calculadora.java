@@ -17,7 +17,7 @@ public class Calculadora {
     }
 
     static void dividir() {
-        //Mar
+        System.out.println(num1/num2);
     }
 
     static void multiplicar() {
