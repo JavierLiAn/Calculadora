@@ -11,7 +11,9 @@ public class Calculadora {
     }
 
     static void sumar() {
-        //Marc
+        int suma;
+        suma= num1 + num2;
+        System.out.println("El resultados de la suma es: " + suma);
     }
 
     static void restar(int entero1,int entero2) {
